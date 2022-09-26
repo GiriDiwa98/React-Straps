@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ReactStraps | Company Profile React</title>
+<link rel="stylesheet" href="assets/css/style.min.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
+</head>
+<body>
+<!-- Header Topbar -->
+<header class="header-wrap">
+    <div id="topbar" class="col-12 col-md-12 col-sm-12 bg-color-sky">
+       <div class="container">
+            <div class="pull-left">
+                <i class="bi bi-envelope-fill text-white"></i> <span class="text-white">Your Email</span> 
+            </div>
+            <div class="pull-right">
+                <i class="bi bi-telephone-fill text-white"></i> <span class="text-white p-right">Phone</span>   <i class="bi bi-map text-white"></i> <span class="text-white">Your Address</span>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-white pt-20 shadow sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">React Strap</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+        <form action="#" class="full-search" method="post">
+            <div class="container">
+                <div class="row">
+                    <span class="input-group">
+                        <input type="text" name="keyword" class="form-control" placeholder="search..." aria-describedby="button-addon2"/>
+                        <button type="submit" class="btn btn-primary" id="button-addon2"><i class="bi bi-search text-primary"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+          </form>
+      </div>
+      
+    </div>
+  </nav>
+<!-- Navbar End -->
+<!-- Jumbotron -->
+<section class="header-jumbo">
+    <div class="container">
+       <div class="row">
+            <div class="col-12 col-md-6 col-sm-12">
+                <h1 class="text-white fs-1 ff-3 ptx-xxl">Selamat Datang Di <span class="text-beda">React Strap</span></h1>
+                <h2 class="text-white fs-6 ff-3 ptx-xl lx-xl">Kami melayani dengan sepenuh hati, Kepuasan Anda Adalah 
+                    Pioritas Utama Kami</h2><br/>
+                <div class="button-ulam">  
+                <button class="btn btn-primary btn-lg text-white shadow" type="button">Get Started</button>
+                <button type="button" class="btn btn-link btn-lg text-white"><i class="bi bi-play-fill"></i>
+                    Watch</button>
+                </div>          
+            </div>
+            <div class="col-12 col-md-6 col-sm-12">
+                <img src="assets/img/img1.svg" class='img-hero' style="width:100%; height:90%; padding-top:70px;">
+            </div>
+       </div>
+    </div>
+</section>
+<!-- Jumbotron -->
+<!-- About -->
+<section id="About">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 com-sm-12">
+                <img src="assets/img/about.svg" style="width:100%;height:90%;padding-top:70px;">
+            </div>
+            <div class="col-12 col-md-6 col-sm-12">
+                <h1 class="fs-3 ff-3 pt-xx text-underline bolder">Tentang Kami</h1>
+                <p class="fs-6 ff-3 lx-xxl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse culpa non, quidem expedita aliquid doloribus tenetur voluptatem omnis est, impedit ratione? Animi voluptatum et nemo natus dignissimos voluptatibus eligendi ipsam unde fugit, quam porro pariatur odit, possimus deleniti explicabo totam quidem! Iure dolorum assumenda velit eos, corrupti incidunt quos ullam.</p>
+                <p class="fs-6 ff-3 lx-xxl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse culpa non, quidem expedita aliquid doloribus tenetur voluptatem omnis est, impedit ratione? Animi voluptatum et nemo natus dignissimos voluptatibus eligendi ipsam unde fugit, quam porro pariatur odit, possimus deleniti explicabo totam quidem! Iure dolorum assumenda velit eos, corrupti incidunt quos ullam.</p>
+                <button class="btn btn-success shadow btn-md">Pelajari selengkapnya</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About End -->
+<!-- Services -->
+<section id="services">
+    <div class="container">
+        <div class="row">         
+            <h1 class="fs-3 ff-3 text-center pt-xx bolder">Our Services</h1>
+            <div class="col-12 col-md-4 col-sm-12 pt-x">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="assets/img/icon-service-1.png" style="padding-left:145px;">
+                        <h3 class="text-center">Web Design</h3>
+                        <p class="descriptions">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil delectus eius porro minus ducimus debitis quos minima perspiciatis! Eaque, recusandae.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-sm-12 pt-x">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="assets/img/icon-service-2.png" style="padding-left:145px;">
+                        <h3 class="text-center">Web Development</h3>
+                        <p class="descriptions">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, dolorem eos sequi ipsum assumenda nesciunt quae omnis perspiciatis quisquam placeat?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-sm-12 pt-x">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="assets/img/icon-service-3.png" style="padding-left:145px;">
+                        <h3 class="text-center">UI/UX Design</h3>
+                        <p class="descriptions">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab voluptatibus repudiandae quia quas fugiat est porro id itaque nam eos?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-sm-12 pt-x">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="assets/img/icon-service-4.png" style="padding-left:145px;">
+                        <h3 class="text-center">Programming</h3>
+                        <p class="descriptions">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla culpa officia quisquam quae praesentium autem ad ipsum incidunt sapiente explicabo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-sm-12 pt-x">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="assets/img/icon-service-5.png" style="padding-left:145px;">
+                        <h3 class="text-center">Graphic Design</h3>
+                        <p class="descriptions">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla culpa officia quisquam quae praesentium autem ad ipsum incidunt sapiente explicabo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-sm-12 pt-x">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="assets/img/icon-service-6.png" style="padding-left:145px;">
+                        <h3 class="text-center">SEO</h3>
+                        <p class="descriptions">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla culpa officia quisquam quae praesentium autem ad ipsum incidunt sapiente explicabo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Services -->
+<!-- Pricing -->
+<section id="Pricing" class="pt-x">
+    <div class="container-fluid bg-color-sky pb-x">
+        <div class="row justify-content-center">
+            <h1 class="fs-3 text-center ff-3 pt-x text-white bolder">Pricing</h1>
+            <div class="col-12 col-md-3 col-sm-12 pt-x">
+                <div class="card shadow">
+                    <div class="card-header">
+                        <h1 class="fs-2 ff-3 text-center">Paket Biasa</h1>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="text-lead fs-4 text-center bolder">Rp.500.000/bulan</h1>
+                        <br/>
+                        <p class="text-desc fs-5"><i class="bi bi-check2-circle text-success"></i>
+                            Free Konsultasi</p>
+                        <p class="text-desc fs-5"><i class="bi bi-check2-circle text-success"></i>
+                            Sumber Kode</p>
+                        <p class="text-desc fs-5"><i class="bi bi-x text-danger"></i>
+                            Free Mockup</p>
+                        <p class="text-desc fs-5"><i class="bi bi-check2-circle text-success"></i>
+                            Help Support</p>
+                        <p class="text-desc fs-5"><i class="bi bi-x text-danger"></i>
+                            Custom Design</p>
+                        <button class="btn btn-success btn-block shadow btn-box">Pilih Sekarang</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-sm-12 pt-x">
+                <div class="card shadow">
+                    <div class="card-header">
+                        <h1 class="fs-2 ff-3 text-center">Paket Menengah</h1>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="text-lead fs-4 text-center bolder">Rp.750.000/bulan</h1>
+                        <br/>
+                        <p class="text-desc fs-5"><i class="bi bi-check2-circle text-success"></i>
+                            Free Konsultasi</p>
+                        <p class="text-desc fs-5"><i class="bi bi-check2-circle text-success"></i>
+                            Sumber Kode</p>
+                        <p class="text-desc fs-5"><i class="bi bi-check2-circle text-success"></i>
+                            Free Mockup</p>
+                        <p class="text-desc fs-5"><i class="bi bi-check2-circle text-success"></i>
+                            Help Support</p>
+                        <p class="text-desc fs-5"><i class="bi bi-check2-circle text-success"></i>
+                            Custom Design</p>
+                        
+                        <button class="btn btn-primary btn-block shadow btn-box">Pilih Sekarang</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-sm-12 pt-x">
+                <div class="card shadow">
+                    <div class="card-header">
+                        <h1 class="fs-2 ff-3 text-center">Paket Super</h1>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="text-lead fs-4 text-center bolder">Rp.1.000.000/bulan</h1>
+                        <br/>
+                        <p class="text-desc fs-5"><i class="bi bi-check2-circle text-success"></i>
+                            Free Konsultasi</p>
+                        <p class="text-desc fs-5"><i class="bi bi-check2-circle text-success"></i>
+                            Sumber Kode</p>
+                        <p class="text-desc fs-5"><i class="bi bi-check2-circle text-success"></i>
+                            Free Mockup</p>
+                        <p class="text-desc fs-5"><i class="bi bi-check2-circle text-success"></i>
+                            Help Support</p>
+                        <p class="text-desc fs-5"><i class="bi bi-check2-circle text-success"></i>
+                            Custom Design</p>
+                        <p class="text-desc fs-5"><i class="bi bi-check2-circle text-success"></i>
+                            Free Hosting</p>
+                        <button class="btn btn-danger btn-block shadow btn-box" >Pilih Sekarang</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Pricing -->
+<!-- Blog -->
+<section id="Blog">
+    <div class="container pt-x">
+        <h2 class="text-center ff-3 fs-2 pt-xx garis">Blog</h2>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-4 col-sm-12 pb-x">
+                <div class="card ">
+                    <img src="assets/img/Thumb.png" alt="" class="card-img-top" >
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing.</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tempora delectus cupiditate possimus ab ratione, voluptatibus provident? Nesciunt.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-sm-12 pb-x">
+                <div class="card">
+                    <img src="assets/img/Thumb.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing.</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tempora delectus cupiditate possimus ab ratione, voluptatibus provident? Nesciunt.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-sm-12 pb-x">
+                <div class="card">
+                    <img src="assets/img/Thumb.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tempora delectus cupiditate possimus ab ratione, voluptatibus provident? Nesciunt.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-sm-12 pb-x">
+                <div class="card">
+                    <img src="assets/img/Thumb.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi!.</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tempora delectus cupiditate possimus ab ratione, voluptatibus provident? Nesciunt.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-sm-12 pb-x">
+                <div class="card">
+                    <img src="assets/img/Thumb.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit..</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tempora delectus cupiditate possimus ab ratione, voluptatibus provident? Nesciunt.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-sm-12 pb-x">
+                <div class="card">
+                    <img src="assets/img/Thumb.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tempora delectus cupiditate possimus ab ratione, voluptatibus provident? Nesciunt.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</section>
+<!-- Blog -->
+<!-- Contact -->
+<section id="Contact">
+    <div class="container-fluid">
+        
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-5 col-sm-12">
+                <img src="assets/img/contact.svg" style="width:100%; height:90%; padding-top:70px;">
+            </div>
+            <div class="col-12 col-md-5 col-sm-12">
+                <h1 class="ff-3 fs-4 pt-xx bolder">Contact</h1>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-sm-12">
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    </div>
+                    <div class="col-12 col-md-6 col-sm-12">
+                        <input type="text" class="form-control" placeholder="Last Name" aria-label="Last name">
+                    </div>
+                </div>
+                <br/>
+                <div class="row">
+                    <div class="col-12 col-md-12 col-sm-12">
+                        <input type="email" class="form-control" placeholder="Email" aria-label="Last name">
+                    </div>
+                    <div class="col-12 col-md-12 col-sm-12">
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label"></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                          </div>
+                    </div>
+                </div>
+                <button class="btn btn-success btn-lg shadow" type="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact -->
+
+<!-- Subscribe -->
+<section class="subscribe">
+    <div class="container-fluid pt-xs mx-s bg-color-sky">
+        <div class="row">
+            <div class="col-12 col-md-6 col-sm-12">
+                <h1 class="text-white fs-4 ff-3 pt-s pl-xxx pb-x">Berlangganan</h1>
+            </div>
+            <div class="col-12 col-md-4 col-sm-12 pb-x pt-d">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Subscribe" aria-describedby="button-addon2">
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Subscribe -->
+
+<!-- Footer -->
+<footer id="Footer">
+    <div class="container-fluid bg-color-sky-600 pt-x">
+        <div class="row">
+            <div class="col-12 col-md-5 col-sm-12">
+                <h2 class="text-white pl-xxx fs-4 ff-3">About-us</h2>
+                <span class="garis"></span>
+                <p class="text-white pl-xd pb-xd">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <i class="bi bi-geo-alt-fill pl-xz pb-xd ln-h text-white"></i> <span class="text-white">Jl.Ciledug Raya,Larangan Utara</span><br/>
+                <i class="bi bi-telephone-fill pl-xz pb-xd ln-h  text-white"></i> <span class="text-white">+62882126629947</span><br/>
+                <i class="bi bi-envelope-fill pl-xz pb-xd ln-h text-white"></i><span class="text-white"> email@gmail.com</span>
+               
+            </div>
+            <div class="col-12 col-md-4 col-sm-12">
+                <h2 class="text-white pl-xxx fs-4 ff-3">Link</h2>
+                <span class="garis"></span>
+                <a href="#" class="text-white pl-xd ln-h"><i class="bi bi-caret-right-fill"></i>
+                    Home</a>
+                <a href="#About" class="text-white pl-xd ln-h"><i class="bi bi-caret-right-fill"></i>
+                    About</a>
+                <a href="#Pricing" class="text-white pl-xd ln-h"><i class="bi bi-caret-right-fill"></i>
+                    Pricing</a>
+                <a href="#Contact" class="text-white pl-xd ln-h "><i class="bi bi-caret-right-fill"></i>
+                    Blog</a>
+                <a href="#Contact" class="text-white pl-xd ln-h "><i class="bi bi-caret-right-fill"></i>
+                    Contact</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<section id="copyright">
+    <div class="container-fluid bg-color-sky">
+        <div class="row">
+            <p class="text-white text-center fs-6 ff-3 fxt-3 pt-s">copyright &copy; 2022 - React Straps - <a href="#">Giri Diwa Adam</a></p>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
